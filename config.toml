@@ -1,0 +1,57 @@
+baseURL = "https://annaba.tech/"
+languageCode = "en-us"
+title = "Annaba Tech Day"
+theme = "sarah"
+
+[params]
+author = "Annaba Tech Day Team"
+slogan = "Practical Workshops Around Programming, Engineering, Devops, Design, Workflows and more.."
+keywords = ["annaba", "tech", "dev", "programming", "algeria", "يرمجة", "عنابة", "workshop"]
+avatar = "images/palais_culture.jpg"
+dateform = "2018-01-29"
+lang = "en"
+footertext = "Annaba Tech Day Team"
+googleAnalytics = ""
+about = """
+Annaba Tech, a community-driven initiative, with the ambition of creating 
+"""
+
+[params.social]
+twitter       = "https://twitter.com/AnnabaTech"
+youtube       = "https://www.youtube.com/channel/UCEir2tStcVIR-tQaI95Tp8Q"
+facebook      = "https://facebook.com/annabatechday"
+github        = "https://github.com/annaba-tech"
+
+[[params.info]]
+label = "Address"
+value = "Palais de la culture, Annaba"
+
+[[params.projects]]
+name = "Discovering Python - A Sneaky Snake that you might want to embrace as developer / tech agency in Algeria"
+desc = "A workshop to discover Python programming language, its ecosystem, web frameworks and how Python can be a great choice when it comes to simplicity and developers productivity."
+img = "images/workshops/python.png"
+link = "https://www.python.org/"
+
+[[params.projects]]
+name = "Discovering Flutter as a viable cross-platform mobile app development SDK from Google"
+desc = "Flutter is a new SDK from Google, recently got to version 1.0. Raouf Rahiche will present how powerful and limitless is Flutter as a mobile development tool."
+img = "images/workshops/flutter.png"
+link = "https://flutter.io"
+
+[[params.projects]]
+name = "Git Basics - Why you should use a version control system within your project"
+desc = "Running your project without a version control system is like driving without seatbelt. Walid Ziouche will run this workshop, focusing on Git, starting from scratch with the basics."
+img = "images/workshops/git.png"
+link = "https://git-scm.com/"
+
+[[params.projects]]
+name = "Domain modeling with PHP"
+desc = "Sounds scary? now worries, Cherif Bouchelaghem will hand you with "
+img = "images/workshops/php.png"
+link = "https://www.youtube.com/channel/UCZCoLtEGz3MdvxgFhbdZ-QA/featured"
+
+[[params.projects]]
+name = "How to help choose your Stack"
+desc = "The tough decition of choosing a tech stack for Dev agencies. A discussion-based workshop that tries to make it a little bit easier to choose your software stack based on your humain resources, and project requirements."
+img = "images/workshops/js.png"
+link = "https://en.wikipedia.org/wiki/Solution_stack"
