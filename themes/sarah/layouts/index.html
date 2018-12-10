@@ -1,4 +1,3 @@
-
 {{ partial "header.html" . }}
 
 {{ partial "navigation.html" . }}
@@ -22,63 +21,67 @@
 
 <hr>
 
-  <!--Projects-->
-  <section id="projects" class="container section">
-    <div class="row">
-      <div class="col-md-12">
-        <h2 id="portfolio_header" class="section__title">$> Upcoming workshops_</h2>
+<!--Projects-->
+<section id="projects" class="container section">
+  <div class="row">
+    <div class="col-md-12">
+      <h2 id="portfolio_header" class="section__title">$> Upcoming workshops_</h2>
+    </div>
+  </div>
+
+  <div class="portfolio-cards">
+
+    {{ range $project := .Site.Params.Projects }}
+    <div class="row project-card" data-toggle="modal" data-target="#portfolioModal" data-portfolio-tag="web-sites">
+      <div class="col-md-3 col-lg-4 project-card__img">
+        <img class="" src="{{ $project.Img | absURL }}" alt="{{ $project.Name }}">
+      </div>
+      <div class="col-md-9 col-lg-8 project-card__info" style="padding: 0px 20px 30px 50px">
+        <h3 class="project-card__title">{{ $project.Name }}</h3>
+        <p class="project-card__description">{{ $project.Desc }}</p>
+        <a ref="nofollow" href="{{ $project.Link }}" target="_blank" class="project-card__link">{{ $project.Link }}</a>
       </div>
     </div>
+    {{ end }}
 
-    <div class="portfolio-cards">
+  </div>
+</section>
+<!--Portfolio-->
 
-      {{ range $project := .Site.Params.Projects }}
-      <div class="row project-card" data-toggle="modal" data-target="#portfolioModal" data-portfolio-tag="web-sites">
-        <div class="col-md-3 col-lg-4 project-card__img">
-          <img class="" src="{{ $project.Img | absURL }}" alt="{{ $project.Name }}">
-        </div>
-        <div class="col-md-9 col-lg-8 project-card__info" style="padding: 0px 20px 30px 50px">
-          <h3 class="project-card__title">{{ $project.Name }}</h3>
-          <p class="project-card__description">{{ $project.Desc }}</p>
-          <a ref="nofollow" href="{{ $project.Link }}" target="_blank" class="project-card__link">{{ $project.Link }}</a>
+<hr />
+
+{{ partial "speakers.html" . }}
+
+<hr />
+
+<section id="faqs" class="container section">
+  <!-- F.A.Q -->
+  <div class="row">
+    <div class="col-md-12">
+
+      <div class="row">
+        <div class="col-md-12">
+          <h1 id="blog_header" class="section__title"><a href="{{ .Section | relURL }}" alt="{{ .Section }}">{{ .Section }}</a>?> F_A_Q_</h1>
         </div>
       </div>
-      {{ end }}
+
+      <div class="row">
+        <div class="col-md-12 section__resume resume-list">
+
+          {{ range first 20 .Pages.ByPublishDate.Reverse }}
+          <div class="resume-list__block">
+            <h2 class="resume-list__block-title">{{ .Title }}</h2>
+            <p style="font-family: 'Roboto Mono', monospace"> {{ .Content }}</p>
+          </div>
+          {{ end }}
+
+        </div>
+      </div>
 
     </div>
-  </section>
-  <!--Portfolio-->
 
-  <hr />
-
-  <section id="faqs" class="container section">
+  </div>
   <!-- F.A.Q -->
-    <div class="row">
-      <div class="col-md-12">
-
-        <div class="row">
-          <div class="col-md-12">
-            <h1 id="blog_header" class="section__title"><a href="{{ .Section | relURL }}" alt="{{ .Section }}">{{ .Section }}</a>?> F_A_Q_</h1>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-12 section__resume resume-list">
-
-            {{ range first 20 .Pages.ByPublishDate.Reverse }}
-            <div class="resume-list__block">
-              <h2 class="resume-list__block-title">{{ .Title }}</h2>
-              <p style="font-family: 'Roboto Mono', monospace">	{{ .Content }}</p>
-            </div>
-            {{ end }}
-
-          </div>
-        </div>
-
-      </div>
-
-    </div>    
-  <!-- F.A.Q -->
-  </section>
+</section>
 
 {{ partial "footer.html" . }}
