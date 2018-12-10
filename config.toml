@@ -13,7 +13,7 @@ lang = "en"
 footertext = "Annaba Tech Day Team"
 googleAnalytics = ""
 about = """
-Annaba Tech, a community-driven initiative, with the ambition of creating 
+Annaba Tech, a community-driven initiative that promotes tech, focused workshops and meetups around everything software development, engineering, design, security ..etc. We hope we can gather Annabi students and software developers and bring them together to discuss and share interesting topics.
 """
 
 [params.social]
@@ -45,13 +45,19 @@ img = "images/workshops/git.png"
 link = "https://git-scm.com/"
 
 [[params.projects]]
-name = "Domain modeling with PHP"
-desc = "Sounds scary? now worries, Cherif Bouchelaghem will hand you with "
+name = "Implementing Domain Driven Design with PHP"
+desc = "Sounds scary? no worries, Cherif Bouchelaghem will show how Domain Driven Design is not that weirdo or scary, and how you, as a fresh engineer / student can make use of it to architect better software solutions."
 img = "images/workshops/php.png"
 link = "https://www.youtube.com/channel/UCZCoLtEGz3MdvxgFhbdZ-QA/featured"
 
 [[params.projects]]
-name = "How to help choose your Stack"
-desc = "The tough decition of choosing a tech stack for Dev agencies. A discussion-based workshop that tries to make it a little bit easier to choose your software stack based on your humain resources, and project requirements."
+name = "Universal (Isomorphic) Javascript applications with DoneJS"
+desc = "Right from one of the core developers of DoneJS, Cherif Bouchelaghem will once again present what DoneJS is, and how to get things done at the frontend side of your web projects, with a universal (isomorphic) JS application as an example."
 img = "images/workshops/js.png"
+link = "https://donejs.com/"
+
+[[params.projects]]
+name = "How to help choose your Stack"
+desc = "The tough decition of choosing a tech stack? we've all been there. This is a discussion-based workshop that tries to make it a little bit easier for product managers to help them choose the software stack based on the available humain resources and project requirements. Will be animated by Walid Ziouche."
+img = "images/workshops/stack.png"
 link = "https://en.wikipedia.org/wiki/Solution_stack"
