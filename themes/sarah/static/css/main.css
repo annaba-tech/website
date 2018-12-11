@@ -9463,7 +9463,7 @@ blockquote {
 
 .main-header {
   background-color: #6d56c1;
-  background-image: url("/images/palais_culture.jpg");
+  background-image: url("/images/head-background.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -9474,16 +9474,7 @@ blockquote {
   background-size: cover;
   position: relative;
   margin-bottom: 40px; }
-  .main-header::before {
-    background: -webkit-linear-gradient(36deg, rgba(74, 76, 179, 0.60) 100%, rgba(207, 157, 157, 070) 90%);
-    background: -o-linear-gradient(36deg, rgba(74, 76, 179, 0.60) 100%, rgba(207, 157, 157, 0.7) 90%);
-    background: linear-gradient(36deg, rgba(74, 76, 179, 0.60) 100%, rgba(207, 157, 157, 0.7) 90%);
-    height: 100%;
-    left: 0;
-    right: 0;
-    position: absolute;
-    content: '';
-    z-index: 0; }
+
   @media screen and (max-width: 990px) {
     .main-header {
       margin-bottom: 0px; } }

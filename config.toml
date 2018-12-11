@@ -7,7 +7,7 @@ theme = "sarah"
 author = "Annaba Tech Day Team"
 slogan = "Practical Workshops Around Programming, Engineering, Devops, Design, Workflows and more.."
 keywords = ["annaba", "tech", "dev", "programming", "algeria", "يرمجة", "عنابة", "workshop"]
-avatar = "images/palais_culture.jpg"
+avatar = "images/head-background.jpg"
 dateform = "2018-01-29"
 lang = "en"
 footertext = "Annaba Tech Day Team"
@@ -24,7 +24,7 @@ github        = "https://github.com/annaba-tech"
 
 [[params.info]]
 label = "Address"
-value = "Palais de la culture, Annaba"
+value = "Hôtel Le Majestic - Annaba"
 
 [[params.projects]]
 name = "Discovering Python - A Sneaky Snake that you might want to embrace as developer / tech agency in Algeria"
@@ -53,7 +53,7 @@ link = "https://en.wikipedia.org/wiki/Domain-driven_design"
 [[params.projects]]
 name = "Universal (Isomorphic) Javascript applications with DoneJS"
 desc = "Right from one of the core developers of DoneJS, Cherif Bouchelaghem will once again present what DoneJS is, and how to get things done at the frontend side of your web projects, with a universal (isomorphic) JS application as an example."
-img = "images/workshops/js.png"
+img = "images/workshops/done-js.png"
 link = "https://donejs.com/"
 
 [[params.projects]]
