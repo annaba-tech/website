@@ -48,7 +48,7 @@ link = "https://git-scm.com/"
 name = "Implementing Domain Driven Design with PHP"
 desc = "Sounds scary? no worries, Cherif Bouchelaghem will show how Domain Driven Design is not that weirdo or scary, and how you, as a fresh engineer / student can make use of it to architect better software solutions."
 img = "images/workshops/php.png"
-link = "https://www.youtube.com/channel/UCZCoLtEGz3MdvxgFhbdZ-QA/featured"
+link = "https://en.wikipedia.org/wiki/Domain-driven_design"
 
 [[params.projects]]
 name = "Universal (Isomorphic) Javascript applications with DoneJS"
@@ -61,3 +61,15 @@ name = "How to help choose your Stack"
 desc = "The tough decition of choosing a tech stack? we've all been there. This is a discussion-based workshop that tries to make it a little bit easier for product managers to help them choose the software stack based on the available humain resources and project requirements. Will be animated by Walid Ziouche."
 img = "images/workshops/stack.png"
 link = "https://en.wikipedia.org/wiki/Solution_stack"
+
+[[params.projects]]
+name = "Devops with Docker"
+desc = "Ever developped something that worked on your machine but not on the target server? do you find it hard to list and correctly install your software dependencies, setup the right configs? Learn how to embrace Docker to deal with all of these issues. A workshop animated by Djelloul Bouida."
+img = "images/workshops/docker.png"
+link = "https://en.wikipedia.org/wiki/Docker_(software)"
+
+[[params.projects]]
+name = "Cyber Security and the protection of your business legacy"
+desc = "Cybernetic threats are more present, they are increasing each day, taking many forms, many attack vectors. They can destroy organizations, businesses, projects, jobs, but more importantly reputations. So, how to design and implement cybersecurity at a reasonable cost? and against what threats? If you are a security enthousiast, don't miss this workshop by Dr. Abdelaziz Amara Korba!"
+img = "images/workshops/cs.png"
+link = "https://en.wikipedia.org/wiki/Computer_security"

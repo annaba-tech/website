@@ -68,13 +68,6 @@
         <div class="row">
           <div class="col-md-12 section__resume resume-list">
 
-            {{ range first 10 .Pages.ByPublishDate.Reverse }}
-            <div class="resume-list__block">
-              <h2 class="resume-list__block-title">{{ .Title }}</h2>
-              <p style="font-family: 'Roboto Mono', monospace">	{{ .Content }}</p>
-            </div>
-            {{ end }}
-
           {{ range first 20 .Pages.ByPublishDate.Reverse }}
           <div class="resume-list__block">
             <h2 class="resume-list__block-title">{{ .Title }}</h2>
