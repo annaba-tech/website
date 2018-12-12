@@ -9401,8 +9401,14 @@ h1, h2, h3, h4, h5, h6 {
 .resume-list__block h2, .post-cards_title {
   margin: 0px 0px 0px 0px; }
 
+.resume {
+  font-family: "Roboto Mono", monospace;
+}
+
 p {
-  margin-bottom: 25px; }
+  margin-bottom: 23px; 
+  font-family: "Roboto Mono", monospace;
+}
 
 ul.tags .next {
   position: absolute;
