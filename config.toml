@@ -21,6 +21,7 @@ twitter       = "https://twitter.com/AnnabaTech"
 youtube       = "https://www.youtube.com/channel/UCEir2tStcVIR-tQaI95Tp8Q"
 facebook      = "https://facebook.com/annabatechday"
 github        = "https://github.com/annaba-tech"
+registration  =  "https://www.eventbrite.fr/e/billets-techday-annaba-53244501738"
 
 [[params.info]]
 label = "Address"
@@ -28,7 +29,7 @@ value = "Hôtel Le Majestic - Annaba"
 
 [[params.projects]]
 name = "Discovering Python - A Sneaky Snake that you might want to embrace as developer / tech agency in Algeria"
-desc = "A workshop to discover Python programming language, its ecosystem, web frameworks and how Python can be a great choice when it comes to simplicity and developers productivity."
+desc = "A workshop to discover Python programming language, its ecosystem, web frameworks and how Python can be a great choice when it comes to simplicity and developers productivity. A workshop to be run by Walid Ziouche."
 img = "images/workshops/python.png"
 link = "https://www.python.org/"
 
@@ -57,10 +58,10 @@ img = "images/workshops/done-js.png"
 link = "https://donejs.com/"
 
 [[params.projects]]
-name = "How to help choose your Stack"
-desc = "The tough decition of choosing a tech stack? we've all been there. This is a discussion-based workshop that tries to make it a little bit easier for product managers to help them choose the software stack based on the available humain resources and project requirements. Will be animated by Walid Ziouche."
-img = "images/workshops/stack.png"
-link = "https://en.wikipedia.org/wiki/Solution_stack"
+name = "Design thinking for new technology developers"
+desc = "Learn how to use Design Thinking methods in to order to define and freeze your software specification, how to mimic what the end users need or want exactly, iterating through the design process in order to tackle problems that are ill-defined or unknown to the developer. If that looks cool to you, don't miss Mohamed Tahar Grairia as a mentor for this workshop!"
+img = "images/workshops/design-thinking.png"
+link = "https://en.wikipedia.org/wiki/Design_thinking"
 
 [[params.projects]]
 name = "Devops with Docker"

@@ -1,4 +1,7 @@
 {{ if isset .Site.Params "social" }}
+
+<a class="btn btn-light btn-sm float-right" href="{{ .Site.Params.Social.Registration }}" target="_blank" style="margin-bottom: 15px;"><i class="fa fa-calendar-check-o"></i> Registrations are open!</a>
+
 <p class="personal-profile__social">
   {{ if isset .Site.Params.Social "github" }}<a href="{{ .Site.Params.Social.Github }}" target="_blank"><i class="fa fa-github-square"></i></a>{{ end }}
   {{ if isset .Site.Params.Social "youtube" }}<a href="{{ .Site.Params.Social.Youtube }}" target="_blank"><i class="fa fa-youtube"></i></a>{{ end }}
